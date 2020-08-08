@@ -9,7 +9,7 @@ use Illuminate\Support\Carbon;
 
 class FetchCustomersDataFromPaystackApi extends Command
 {
-    protected $signature = 'dashboard:fetch-customer-data-from-paystack-api';
+    protected $signature = 'dashboard:fetch-customers-data-from-paystack-api';
 
     protected $description = 'Fetch data for paystack Customer tile';
 

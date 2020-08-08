@@ -61,7 +61,7 @@ protected function schedule(Schedule $schedule)
 }
 ```
 You can change the frequency of the schedule as desired. You can also use the
-`php artisan dashboard:fetch-customer-data-from-paystack-api` command.
+`php artisan dashboard:fetch-customers-data-from-paystack-api` command.
 
 ## Usage
 In your dashboard view you use the `livewire:paystack-customers-tile` component.

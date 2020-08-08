@@ -2,7 +2,6 @@
 
 namespace Digikraaft\PaystackCustomersTile;
 
-use DateTime;
 use Digikraaft\Paystack\Customer;
 use Digikraaft\Paystack\Paystack;
 use Illuminate\Console\Command;
@@ -25,7 +24,7 @@ class FetchCustomersDataFromPaystackApi extends Command
         );
 
         $customers = collect($customers->data)
-            ->map(function($customer){
+            ->map(function ($customer) {
                 return [
                     'first_name' => $customer->first_name,
                     'last_name' => $customer->last_name,
@@ -41,6 +40,7 @@ class FetchCustomersDataFromPaystackApi extends Command
         PaystackCustomersStore::make()->setData($customers);
 
         $this->info('All done!');
+
         return 0;
     }
 }

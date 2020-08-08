@@ -1,6 +1,6 @@
 {
     "name": "digikraaft/laravel-dashboard-paystack-customers-tile",
-    "description": "Paystack Customers Tile for Laravel Dashboard",
+    "description": "A tile to show list of Paystack Customers on Laravel Dashboard",
     "keywords": [
         "digikraaft",
         "laravel-dashboard",

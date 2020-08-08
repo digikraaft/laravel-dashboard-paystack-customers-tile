@@ -16,7 +16,7 @@ class FetchCustomersDataFromPaystackApi extends Command
 
     public function handle()
     {
-        Paystack::setApiKey(config('paystacksubscription.secret', env('PAYSTACK_SECRET')));
+        Paystack::setApiKey(config('dashboard.tiles.paystack.secret_key', env('PAYSTACK_SECRET')));
 
         $this->info('Fetching Paystack customers ...');
 

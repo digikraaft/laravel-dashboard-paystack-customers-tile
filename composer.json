@@ -7,7 +7,7 @@
         "paystack-dashboard",
         "paystack"
     ],
-    "homepage": "https://github.com/digikraaft/laravel-dashboard-paystack-customer-tile",
+    "homepage": "https://github.com/digikraaft/laravel-dashboard-paystack-customers-tile",
     "license": "MIT",
     "authors": [
         {

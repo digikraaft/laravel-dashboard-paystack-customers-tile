@@ -34,6 +34,7 @@ class PaystackCustomersTileComponent extends Component
     {
         $customers = collect(PaystackCustomersStore::make()->getData());
         $paginator = $this->getPaginator($customers);
+
         return view('dashboard-paystack-customers-tile::tile', [
             'customers' => $customers->skip(($paginator->firstItem() ?? 1) - 1)->take($paginator->perPage()),
             'paginator' => $paginator,
@@ -50,5 +51,4 @@ class PaystackCustomersTileComponent extends Component
     {
         return 'dashboard-paystack-customers-tile::pagination';
     }
-
 }

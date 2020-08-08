@@ -1,5 +1,5 @@
 # A tile to show list of Paystack Customers on Laravel Dashboard
-![tests](https://github.com/digikraaft/laravel-dashboard-paystack-customers-tile/workflows/tests/badge.svg?branch=master)
+![run-tests](https://github.com/digikraaft/laravel-dashboard-paystack-customers-tile/workflows/run-tests/badge.svg)
 [![Build Status](https://scrutinizer-ci.com/g/digikraaft/laravel-dashboard-paystack-customers-tile/badges/build.png?b=master)](https://scrutinizer-ci.com/g/digikraaft/laravel-dashboard-paystack-customers-tile/build-status/master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/digikraaft/laravel-dashboard-paystack-customers-tile/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/digikraaft/laravel-dashboard-paystack-customers-tile/?branch=master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/digikraaft/laravel-dashboard-paystack-customers-tile/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)

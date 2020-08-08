@@ -5,6 +5,8 @@
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/digikraaft/laravel-dashboard-paystack-customers-tile/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
+![alt Paystack Customers](docs/paystack-customers-data.png)
+
 This tile displays the list of [Paystack](https://paystack.com) customers. 
 It can be used on [the Laravel Dashboard](https://docs.spatie.be/laravel-dashboard).
 

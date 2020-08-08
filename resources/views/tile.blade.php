@@ -1,5 +1,5 @@
 <x-dashboard-tile :position="$position" :refresh-interval="$refreshIntervalInSeconds">
-    <div class="grid {{ isset($title) ? 'grid-rows-auto-auto gap-2' : '' }} h-auto">
+    <div class="grid grid-rows-auto-1 gap-2 h-auto">
         @isset($title)
             <h1 class="uppercase font-bold">
                 {{ $title }} <span class="text-dimmed">({{$paginator->total()}})</span>

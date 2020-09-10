@@ -20,7 +20,9 @@ class FetchCustomersDataFromPaystackApi extends Command
         $this->info('Fetching Paystack customers ...');
 
         $customers = Customer::list(
-            config('dashboard.tiles.paystack.customers.params') ?? []
+            config('dashboard.tiles.paystack.customers.params') ?? [
+                'perPage' => 5,
+            ]
         );
 
         $customers = collect($customers->data)
